@@ -1,0 +1,271 @@
+@media (max-width:640px) {
+    .wrap{
+        width: 100%;
+        padding: 20px;
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: var(--font-inter--);
+        margin: 0.4rem 0;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+        margin: 0.9rem 0;
+    }
+    h1{
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    .btn{
+        cursor: pointer;
+        padding: .4rem 1.2rem;
+        font-size: 1rem !important;
+        box-shadow: 1px 2px 2px 2px #333;
+        border-radius: 8px;
+        width: fit-content;
+        border: none;
+        margin: 0.5rem 0;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 25%;
+    }
+    .nav{
+        width: 70%;
+    }
+   .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0px;
+   }
+   .body{
+    margin: 2rem 0px;
+   }
+   .work_title{
+    background-color: var(--bg--color--);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: 2px solid black;
+   }
+   .work_title div{
+        width: 75%;
+        display: flex ;
+        justify-content: space-between;
+        flex-direction: column;
+   }
+   .work_title img{
+    width: 25%;
+    margin: 0px auto;
+   }
+   .box-1{
+    margin: 1rem 0;
+   }
+   .protfolio_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0px auto;
+   }
+   .protfolio_box div{
+    width: 50%;
+    padding: 0.2rem;
+   }
+   .contact_box{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+   }
+   .contect_box div{
+    width: 15%;
+    cursor: pointer;
+   }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black ;
+   }
+   .ontablet{
+    visibility: hidden;
+   }
+}
+@media (min-width:639px) {
+    .wrap{
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    p{
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+        margin: 0.4rem 0;
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    h2{
+        font-size: 2.8rem;
+        font-weight: 700;
+        font-family: var(--font-inter--);
+        margin: 0.8rem 0;
+    }
+    h3{
+        font-size: 2.0rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+        margin: 0.9rem 0;
+    }
+    .btn{
+        cursor: pointer;
+        padding: 4px 20px;
+        font-size: 1.8rem;
+        box-shadow: 1px 2px 2px 2px #333;
+        border-radius: 8px;
+        width: fit-content;
+        border: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+   .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0px;
+   }
+   .body{
+    margin: 2rem 0px;
+   }
+   .work_title{
+    background-color: var(--bg--color--);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.6rem;
+    border: 2px solid black;
+   }
+   .work_title div{
+        width: 75%;
+   }
+   .work_title img{
+    width: 20%;
+    margin: 0px auto;
+   }
+   .box-1{
+    margin: 1rem 0;
+   }
+   .protfolio_box{
+    display: flex;
+    justify-content: space-between;
+   }
+   .contact_box{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+   }
+   .contect_box div{
+    width: fit-content;
+   }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black ;
+   }
+}
+
+@media (min-width:1024px) {
+    .wrap{
+        width: 1080px;
+        margin: 50px auto;
+        border: 2px solid black;
+        padding: 20px;
+    }
+    p{
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+        margin: 0.4rem 0;
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    h2{
+        font-size: 2.8rem;
+        font-weight: 700;
+        font-family: var(--font-inter--);
+        margin: 0.8rem 0;
+    }
+    h3{
+        font-size: 2.0rem;
+        font-weight: 400;
+        font-family: var(--font-inter--);
+        margin: 0.9rem 0;
+    }
+    .btn{
+        cursor: pointer;
+        padding: 4px 20px;
+        font-size: 1.8rem;
+        box-shadow: 1px 2px 2px 2px #333;
+        border-radius: 8px;
+        width: fit-content;
+        border: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+   .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0px;
+   }
+   .body{
+    margin: 2rem 0px;
+   }
+   .work_title{
+    background-color: var(--bg--color--);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.6rem;
+    border: 2px solid black;
+   }
+   .work_title div{
+        width: 75%;
+   }
+   .work_title img{
+    width: 15%;
+    margin: 0px auto;
+   }
+   .box-1{
+    margin: 1rem 0;
+   }
+   .protfolio_box{
+    display: flex;
+    justify-content: space-between;
+   }
+   .contact_box{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+   }
+   .contect_box div{
+    width: fit-content;
+   }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black ;
+   }
+}
